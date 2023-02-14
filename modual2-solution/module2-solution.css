@@ -1,0 +1,83 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	box-sizing: border-box;
+}
+.row{
+			width: 100%;
+	
+	}
+p{
+	padding: 5px;
+}
+
+.h31{
+	background-color: lightpink;
+	border: 1px solid black;
+	text-align: right;
+	position: absolute;
+	right: 0px;
+}
+.h32{
+	background-color: red;
+	border: 1px solid black;
+	text-align: right;
+	position: absolute;
+	right: 0px;
+}
+.h33{
+	background-color: lightblue;
+	border: 1px solid black;
+	text-align: right;
+	position: absolute;
+	right: 0px;
+}
+.div1{
+	border: 2px solid black;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	position: relative;
+	
+}
+h1{
+	text-align: center;
+}
+	
+
+.div2{
+	border: 2px solid black;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	position: relative;
+}
+
+	
+
+.div3{
+	border: 2px solid black;
+	margin-bottom: 10px;
+	position: relative;
+}
+@media (min-width: 992px){
+			.div1, .div2, .div3{
+				float: left;
+				width: 33%;
+			}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	.div1, .div2{
+		float: left;
+		width: 50%;
+	}
+	.div3{
+		width: 100%;
+	}
+}
+@media (max-width: 767px){
+			.div1, .div2, .div3{
+				float: left;
+				width: 100%;
+			}
+}
+
+			
