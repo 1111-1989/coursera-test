@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>module4-solution</title>
+	<style>
+		body{
+			background-color: aqua;
+			font-size: 1.5em;
+			line-height: 1.5em;
+			margin-left: 1.5em;
+		}
+		h1{
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<h1>module4-solution</h1>
+	<p id="print"></p>
+	<script>
+		
+		var names = ["john", "mona", "jalal", "jackson", "behrooz", "ali", "marzi", "moha", "jamal"];
+            var i ;
+			var x = names.length ;
+			for(i = 0 ; i < x ; i++){
+			var m = names[i];
+			var char = 'j';
+			if(m.startsWith(char)){
+				document.write("Goodbye" + " " + names[i] + "<br>");
+			}
+			else{
+				document.write("Hello" + " " + names[i] + "<br>");
+			}
+			}
+		
+	</script>
+</body>
+</html>
